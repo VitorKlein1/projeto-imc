@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/*
+
+BREAKPOINTS
+•	Telas pequenas: até 600px
+•	Celular: 600px – 768px
+•	Tablet: 768px – 992px
+•	Desktop: 992px – 1200px
+•	Telas grandes: acima de 1200px
+
+
+*/
+
+
+/*  -----------TABLET-----------  */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+}
+
+
+
+
+
+/*  -----------DESKTOP-----------  */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    div#image {
+        float: left;
+        width: 40%;
+        height: 100%;
+        position: absolute;
+        top: 50%;
+    }
+
+    div#calculator {
+        float: right;
+        width: 60%;
+        top: 50%;
+    }
+}
+
+
+
+
+
+
+/*  -----------TELAS GRANDES-----------  */
+@media screen and (min-width: 1200px) {
+
+}
